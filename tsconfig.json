@@ -9,7 +9,11 @@
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
     "strictNullChecks": true,
-    "rootDir": "src"
+    "rootDir": "src",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*", "src/*"]
+    }
   },
   "include": ["src/**/*"]
 }
